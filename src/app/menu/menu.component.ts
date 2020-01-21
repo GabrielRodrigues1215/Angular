@@ -23,7 +23,13 @@ export class MenuComponent implements OnInit {
           icon: 'pi pi-fw pi-user',
           routerLink:'usuario'
 
-      }
+      },
+      {
+        label: 'Estados',
+        icon: 'pi pi-fw pi-user',
+        routerLink:'estados'
+
+    }
   ];
 }
 }
